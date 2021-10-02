@@ -7,7 +7,7 @@ int main(void)
 {
 int var;
 for (var = 48 ; var < 58 ; var++)
-putchar(var);
+int putchar(int var);
 putchar("\n");
 return (0);
 }
