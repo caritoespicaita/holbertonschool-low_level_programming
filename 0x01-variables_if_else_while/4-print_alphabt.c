@@ -15,7 +15,7 @@ var += 1;
 else
 {
 putchar(var);
-lw += 1;
+var += 1;
 }
 }
 putchar('\n');
