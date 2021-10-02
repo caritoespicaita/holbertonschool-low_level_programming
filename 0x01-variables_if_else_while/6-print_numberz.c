@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-int var;
-for (var = 48 ; var < 58 ; var++)
-int putchar(int var);
-putchar("\n");
+int i;
+for (i = 48 ; i < 58 ; i++)
+putchar(i);
+putchar('\n');
 return (0);
 }
