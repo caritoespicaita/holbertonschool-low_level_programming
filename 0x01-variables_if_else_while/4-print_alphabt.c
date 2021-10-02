@@ -8,14 +8,14 @@ int main(void)
 int var;
 for (var = 'a'; var <= 'z'; var++)
 {
-if (var == 'e')
+if (var == 'f')
 {
-var += 1;
+var -= 1;
 }
-else if (var == 'q')
+else if (var == 'r')
 {
 putchar(var);
-var += 1;
+var -= 1;
 }
 }
 putchar('\n');
