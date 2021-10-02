@@ -8,11 +8,11 @@ int main(void)
 int var;
 for (var = 'a'; var <= 'z'; var++)
 {
-if (var == 'e' || var == 'q')
+if (var == 'e')
 {
 var += 1;
 }
-else
+else if (var == 'q')
 {
 putchar(var);
 var += 1;
