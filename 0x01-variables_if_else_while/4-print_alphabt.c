@@ -6,14 +6,18 @@
 int main(void)
 {
 int var;
-int var1;
-int var2;
-for (var = 'a'; var <= 'd'; var++)
+for (var = 'a'; var <= 'z'; var++)
+{
+if (var == 'e' || var == 'q')
+{
+var -= 1;
+}
+else
+{
 putchar(var);
-for (var1 = 'f'; var1 <= 'p'; var1++)
-putchar(var1);
-for (var2 = 'r'; var2 <= 'z'; var2++)
-putchar(var2);
+var -= 1;
+}
+}
 putchar('\n');
 return (0);
 }
