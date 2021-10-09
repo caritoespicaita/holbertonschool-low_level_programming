@@ -9,31 +9,23 @@
 int main(void)
 {
 	int i;
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> aec009c8883819715f77a043cdba0d894d3a2c0f
-	for (i = 1 ; i < 100 ; i++)
+	for (i = 1; i <= 100; i++)
 	{
-		if ((i % 3) == 0)
-		{
-			printf("fizz ");
-		}
-		else if ((i % 5) == 0)
-		{
-			printf("buzz ");
-		}
-		else if ((i % 3) == 0 && (i % 5) == 0)
-		{
-			printf("fizzbuzz ");
-		}
-		else if (i != ((i % 3) == 0 && (i % 5) == 0))
-		{
-			printf("%d ", i);
-		}
+		if ((i % 3 == 0) && (i % 5 == 0))
+			printf("FizzBuzz");
+		else if (i % 5 == 0)
+			printf("Buzz");
+		else if (i % 3 == 0)
+			printf("Fizz");
+		else
+			printf("%i", i);
+
+		if (i < 100)
+			printf(" ");
+		else
+			printf("\n");
 	}
-	printf("\n");
 	return (0);
 }
 
