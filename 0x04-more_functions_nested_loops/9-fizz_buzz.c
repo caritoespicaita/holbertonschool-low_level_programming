@@ -9,12 +9,8 @@
 int main(void)
 {
 	int i;
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> c7240c14e5657bd76c8a26ff8632db04e58f7f72
-	for (i = 0 ; i < 100 ; i++)
+	for (i = 1 ; i < 100 ; i++)
 	{
 		if ((i % 3) == 0)
 		{
@@ -34,5 +30,6 @@ int main(void)
 		}
 	}
 	printf("\n");
-	return (0); 
+	return (0);
 }
+
