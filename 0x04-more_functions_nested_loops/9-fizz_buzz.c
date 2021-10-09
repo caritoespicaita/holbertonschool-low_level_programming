@@ -3,14 +3,17 @@
  * main - Prints the numbers from 1-100, but for multiples of three,
  *        Fizz is printed instead of the number, for multiples of five,
  *        Buzz, and for multiples of both three and five, FizzBuzz.
- *
- * Return: Always 0.
+ *Return: Always 0.
  */
 
 int main(void)
 {
 	int i;
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> c7240c14e5657bd76c8a26ff8632db04e58f7f72
 	for (i = 0 ; i < 100 ; i++)
 	{
 		if ((i % 3) == 0)
@@ -31,6 +34,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-	return (0);
+	return (0); 
 }
-
