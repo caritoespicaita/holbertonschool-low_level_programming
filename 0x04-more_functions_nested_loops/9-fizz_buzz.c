@@ -8,24 +8,18 @@
 
 int main(void)
 {
-	int i;
-
-	for (i = 1; i <= 100; i++)
-	{
-		if ((i % 3 == 0) && (i % 5 == 0))
-			printf("FizzBuzz");
-		else if (i % 5 == 0)
-			printf("Buzz");
-		else if (i % 3 == 0)
-			printf("Fizz");
-		else
-			printf("%i", i);
-
-		if (i < 100)
-			printf(" ");
-		else
-			printf("\n");
-	}
-	return (0);
+int i;
+for (i = 1 ; i <= 100 ; i++)
+{
+if ((i % 3) == 0 )
+printf("fizz ");
+else if ((i % 5) == 0 )
+printf("buzz ");
+else if ((i % 3) == 0 && (i % 5) == 0 )
+printf("fizzbuzz ");
+else if (i != ((i % 3) == 0 && (i % 5) == 0 )) 
+printf("%i ",i);
 }
-
+printf("\n");
+return (0);
+}
