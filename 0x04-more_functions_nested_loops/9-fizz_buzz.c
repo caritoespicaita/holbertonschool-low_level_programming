@@ -10,6 +10,7 @@ int main(void)
 {
 	int i;
 
+<<<<<<< HEAD
 	for (i = 1; i <= 100; i++)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
@@ -22,6 +23,23 @@ int main(void)
 			printf("%i", i);
 
 		if (i < 100)
+=======
+	for (i = 1 ; i < 100 ; i++)
+	{
+		if ((i % 3) == 0)
+		{
+			printf("fizz");
+		}
+		else if ((i % 5) == 0)
+		{
+			printf("buzz");
+		}
+		else if ((i % 3) == 0 && (i % 5) == 0)
+		{
+			printf("fizzbuzz");
+		}
+		if (n < 100)
+>>>>>>> 137787810a768094e9a30482fedd32ea07fbe654
 			printf(" ");
 		else
 			printf("\n");
