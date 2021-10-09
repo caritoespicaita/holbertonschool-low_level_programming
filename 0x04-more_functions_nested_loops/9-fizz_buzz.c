@@ -8,7 +8,6 @@
 
 int main(void)
 {
-<<<<<<< HEAD
 	int i;
 
 	for (i = 1; i <= 100; i++)
@@ -28,20 +27,4 @@ int main(void)
 			printf("\n");
 	}
 	return (0);
-=======
-int i;
-for (i = 1 ; i <= 100 ; i++)
-{
-if ((i % 3) == 0 )
-printf("fizz ");
-else if ((i % 5) == 0 )
-printf("buzz ");
-else if ((i % 3) == 0 && (i % 5) == 0 )
-printf("fizzbuzz ");
-else if (i != ((i % 3) == 0 && (i % 5) == 0 )) 
-printf("%i ",i);
-}
-printf("\n");
-return (0);
->>>>>>> 2faaeebbf8042e7122de4e490c81e2c32c2e0fd4
 }
