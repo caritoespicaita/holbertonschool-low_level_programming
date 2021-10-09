@@ -9,11 +9,7 @@
 int main(void)
 {
 	int i;
-<<<<<<< HEAD
 	
-=======
-
->>>>>>> c7240c14e5657bd76c8a26ff8632db04e58f7f72
 	for (i = 0 ; i < 100 ; i++)
 	{
 		if ((i % 3) == 0)
