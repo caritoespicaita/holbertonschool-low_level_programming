@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * leet - encodes a string into 1337
- * @leet: string to encode
+ * @let: string to encode
  *
- * Return: address of leet
+ * Return: address of let
  */
 char *leet(char *let)
 {
@@ -22,4 +22,3 @@ char *leet(char *let)
 	}
 	return (let);
 }
-
