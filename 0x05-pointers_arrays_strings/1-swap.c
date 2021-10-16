@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 -updates the value it points to to 98
+ * swap_in -swaps the values of two integers
  * @a: pointer values integer
  * @b: pointer values integer
  */
@@ -9,8 +9,7 @@ void swap_int(int *a, int *b)
 {
 	int x;
 
-	x=*a;
-	*a=*b;
-	*b=x;
+	 x = *a;
+	*a = *b;
+	*b = x;
 }
-
