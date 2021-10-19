@@ -19,12 +19,8 @@ char *_strchr(char *s, char c)
 			return (&s[i]);
 		}
 	}
-<<<<<<< HEAD
 	if (s[i] != c)
 		return (s + i);
 	return NULL;
-=======
-	return (NULL);
->>>>>>> c924ce66479e8b4e37fbb32b6e1533a1f6327785
 }
 
