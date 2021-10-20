@@ -19,10 +19,7 @@ char *_strchr(char *s, char c)
 			return (&s[i]);
 		}
 	}
-<<<<<<< HEAD
-=======
-	if (c != '\0')
+	if (s[i] == c)
 		return (s + i);
->>>>>>> ae289c2bcd29947400192035b56906066ba7ce91
 	return ('\0');
 }
