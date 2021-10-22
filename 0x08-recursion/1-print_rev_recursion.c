@@ -5,11 +5,11 @@
  * @s: strin reverse
  * Return: char.
  */
-_print_rev_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
 		return;
-	_puts_recursion(s + 1);
-	printf("%c", *s);
+	_putchar(*s);
+	_print_rev_recursion(s + 1);
 }
 
