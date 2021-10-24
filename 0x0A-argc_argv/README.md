@@ -8,14 +8,14 @@ Learning Objectives
 
 Requirements
 ---
-- All your files will be compiled on Ubuntu 20.04
-- A README.md file, at the root of the folder of the project is mandatory
-- Your code should use the Betty style.
+- Ubuntu 14.04.4
+- gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+- All files are linted for syntax and style with Betty
 
 Tasks
 ---
 0. [It ain't what they call you, it's what you answer to](https://github.com/caritoespicaita/holbertonschool-low_level_programming/blob/main/0x0A-argc_argv/0-whatsmyname.c)
-1. Silence is argument carried out by other means
-2. The best argument against democracy is a five-minute conversation with the average voter
-3. Neither irony nor sarcasm is argument
-4. To infinity and beyond
+1. [Silence is argument carried out by other means](https://github.com/caritoespicaita/holbertonschool-low_level_programming/blob/main/0x0A-argc_argv/1-args.c)
+2. [The best argument against democracy is a five-minute conversation with the average voter](https://github.com/caritoespicaita/holbertonschool-low_level_programming/blob/main/0x0A-argc_argv/2-args.c)
+3. [Neither irony nor sarcasm is argument](https://github.com/caritoespicaita/holbertonschool-low_level_programming/blob/main/0x0A-argc_argv/3-mul.c)
+4. [To infinity and beyond]
