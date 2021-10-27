@@ -17,12 +17,9 @@ int main(int argc, char *argv[])
 		printf("%d\n", 0);
 		return (1);
 	}
-<<<<<<< HEAD
 
-	for (i = 0; i < argc; i++)
-=======
 	for (i = 1; i < argc; i++)
->>>>>>> d2389f54447afc7b4d449d80310c7c40292d3687
+
 	{
 		int x;
 
@@ -37,8 +34,3 @@ int main(int argc, char *argv[])
 	printf("%d\n", sum);
 	return (0);
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> d2389f54447afc7b4d449d80310c7c40292d3687
