@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
- * *str_concat - function that concatenates two strings
- * @s1: pointer contains a string
- * @s2: pointer contains a string
- * Return: Null if str null on failure
+ * *_calloc -  allocates memory for an array, using malloc
+ * @nmemb: integer
+ * @size: integer
+ * Return: return pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
