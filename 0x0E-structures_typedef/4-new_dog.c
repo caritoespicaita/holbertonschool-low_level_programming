@@ -11,19 +11,23 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *new = malloc(sizeof(dog_t));
-	if (new == NULL)
-		return (NULL);
-	if (name == NULL || owner == NULL)
-	{
-		free(new);
-		free(name);
-		free(owner);
-		return (NULL);
-
-	}
-	(*new).name = name;
-	(*new).age = age;
-	(*new).owner = owner;
-	return (new);
+dog_t *new = malloc(sizeof(dog_t));
+if (new == NULL)
+return (NULL);
+if (name == NULL)
+{
+free(new);
+free(owner);
+return (NULL);
+}
+if (owner == NULL)
+{
+free(new);
+free(name);
+return (NULL);
+}
+(*new).name = name;
+(*new).age = age;
+(*new).owner = owner;
+return (new);
 }
