@@ -1,12 +1,11 @@
 #ifndef DOG_
 #define DOG_
 /**
- * struct DOG - POPPY
+ * struct dog - dates about dog
  * @name: name dog
  * @age: age dog
  * @owner: owner dog
  *
- * Description: attibutes dog
  */
 struct dog
 {
