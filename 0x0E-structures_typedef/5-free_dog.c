@@ -5,7 +5,7 @@
  * free_dog -entry point
  * @d: Entry of struct
  */
-void free_dog(struct dog *d)
+void free_dog(dog_t *d)
 {
 	if (d != NULL)
 	{
