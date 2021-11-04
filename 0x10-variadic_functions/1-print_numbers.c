@@ -1,4 +1,5 @@
-#include "variadiac_functions"
+#include "variadic_functions.h"
+
 /**
  * print_numbers - print list of the numbers
  * @n: count
@@ -17,7 +18,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		if ( i < (n - 1) && separator == NULL)
 			printf("%d%s", va_arg(argum, int), separator);
 		else
-			printf("%d%s", va_arg(argum, int));
+			printf("%d", va_arg(argum, int));
 	}
 	printf("\n");
 	va_end(argum);
