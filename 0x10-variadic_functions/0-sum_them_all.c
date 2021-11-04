@@ -2,7 +2,7 @@
 #include "variadic_functions.h"
 
 /**
-* print_numbers - print list of the numbers
+* sum_them_all- sum
 * @n: count
 * Return:sum, if n=0 return 0.
 */
@@ -10,6 +10,7 @@ int sum_them_all(const unsigned int n, ...)
 {
 	va_list ls;
 	unsigned int i, sum = 0;
+
 	if (n == 0)
 		return (0);
 
