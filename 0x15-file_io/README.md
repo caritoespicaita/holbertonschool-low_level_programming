@@ -15,7 +15,7 @@ Requirements
 
 Tasks
 ---
-0. What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR
-1. What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR
+0. Tread lightly, she is near
+1. Under the snow
 2. Speak gently, she can hear
 3. cp
