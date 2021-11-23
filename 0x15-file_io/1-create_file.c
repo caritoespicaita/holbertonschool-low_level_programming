@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* read_textfile - converts a binary number to an unsigned int.
+* create_file - function that creates a file.
 * @filename:file name.
 * @text_content: size.
 * Return: 1 on success, -1 on failure.
@@ -13,10 +13,7 @@ int create_file(const char *filename, char *text_content)
 
 	if (filename == NULL)
 		return (-1);
-
 	file = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
-	if (file == -1)
-		return (0);
 	if (text_content != NULL)
 	{
 		for (size = 0; text_content[size]; size++)
