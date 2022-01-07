@@ -1,13 +1,12 @@
 #include "lists.h"
 /**
- *print_list:-function print linked list
+ *print_dlistint:-function print double linked list
  *@h: linked list
  * Return: long linked list
  */
-
 size_t print_dlistint(const dlistint_t *h)
 {
-    size_t count = 0;
+	size_t count = 0;
 
 	while (h != NULL)
 	{
@@ -16,6 +15,4 @@ size_t print_dlistint(const dlistint_t *h)
 		h = h->next;
 	}
 	return (count);
-
-
 }
